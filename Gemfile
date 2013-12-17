@@ -50,3 +50,9 @@ end
 gem 'carrierwave'
 
 gem 'rmagick'
+
+gem 'figaro'
+
+gem "fog"
+
+gem 'unf'
