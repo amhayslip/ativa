@@ -1,0 +1,6 @@
+// create.js.erb
+
+(function () {
+  var projectHtml = "<%= j render(partial: 'project', locals: { project: @project }) %>";
+  $('.projects').prepend(projectHtml);
+})();
